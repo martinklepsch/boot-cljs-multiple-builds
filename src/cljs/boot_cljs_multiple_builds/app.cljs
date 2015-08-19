@@ -1,6 +1,6 @@
 (ns boot-cljs-multiple-builds.app
   (:require #_[re-frame.core :as core]
-            [cljs.core.async     :as as]))
+            #_[cljs.core.async     :as as]))
 
 (defn init []
   (let [c (.. js/document (createElement "DIV"))]
