@@ -1,0 +1,2 @@
+{:require  [boot-cljs-multiple-builds.app]
+ :init-fns [boot-cljs-multiple-builds.app/init]}
