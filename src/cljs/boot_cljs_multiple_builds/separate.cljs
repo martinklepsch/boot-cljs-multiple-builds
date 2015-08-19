@@ -1,4 +1,4 @@
-(ns boot-cljs-multiple-builds.app)
+(ns boot-cljs-multiple-builds.separate)
 
 (defn init []
   (let [c (.. js/document (createElement "DIV"))]

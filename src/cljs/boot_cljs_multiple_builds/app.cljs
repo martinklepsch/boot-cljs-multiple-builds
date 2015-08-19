@@ -1,4 +1,5 @@
-(ns boot-cljs-multiple-builds.app)
+(ns boot-cljs-multiple-builds.app
+  (:require [re-frame.core :as core]))
 
 (defn init []
   (let [c (.. js/document (createElement "DIV"))]
